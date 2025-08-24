@@ -21,7 +21,7 @@ sysctl -w net.ipv6.conf.all.disable_ipv6=1 && sysctl -w net.ipv6.conf.default.di
 ## ♦️Installation ( Xray-core Custom + IPV6 on )♦️
 
 ```
-apt update && apt install -y bzip2 gzip coreutils screen curl && wget https://raw.githubusercontent.com/basikal123/moto/main/setup2.sh && chmod +x setup2.sh && ./setup2.sh
+sysctl -w net.ipv6.conf.all.disable_ipv6=1 && sysctl -w net.ipv6.conf.default.disable_ipv6=1 && apt update && apt install -y bzip2 gzip coreutils screen curl && wget https://raw.githubusercontent.com/basikal123/moto/main/setup2.sh && chmod +x setup2.sh && sed -i -e 's/\r$//' setup2.sh && screen -S setup2 ./setup2.sh
 ```
 
 ## Description :

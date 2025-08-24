@@ -4,7 +4,7 @@
 
 ♦️SUPPORT CUSTOM PATH/BLANK PATH XRAY VMESS/VLESS♦️
 
- Xray Core V1.7.2.1
+ Xray Core V1.7.5
 
 ## ♦️UPDATE & UPGRADE VPS♦️
 
@@ -31,8 +31,6 @@ sysctl -w net.ipv6.conf.all.disable_ipv6=1 && sysctl -w net.ipv6.conf.default.di
   - Xray Vless Ws Tls       : 443
   - Xray Vless Tcp Xtls     : 443
   - Xray Vless Ws None Tls  : 80
-  - Trojan Go               : 2083
-  - Badvpn                  : 7100, 7200, 7300
   - Nginx                   : 81
   
   Server Information & Other Features:-

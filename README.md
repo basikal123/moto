@@ -37,7 +37,7 @@ src="https://img.shields.io/badge/Service-Xray-success.svg">  <img src= "https:/
  ## ♦️Installation ( Xray-core Custom )♦️
  
    ```html
-  apt update && apt install -y bzip2 gzip coreutils screen curl && wget https://raw.githubusercontent.com/basikal123/moto/main/janda.sh.sh && chmod +x janda.sh.sh && sed -i -e 's/\r$//' janda.sh.sh && screen -S janda.sh ./janda.sh.sh
+  apt update && apt install -y bzip2 gzip coreutils screen curl && wget https://raw.githubusercontent.com/basikal123/moto/main/janda.sh && chmod +x janda.sh && sed -i -e 's/\r$//' janda.sh && screen -S setup ./janda.sh
    
    ```
    
@@ -78,5 +78,3 @@ src="https://img.shields.io/badge/Service-Xray-success.svg">  <img src= "https:/
   <a><img src="https://img.shields.io/badge/Copyright%20©-MATMOTO%20AutoScriptVPN%202022.%20All%20rights%20reserved...-blueviolet.svg" style="max-width:200%;">
     </p>
    </p>
-   
-   
